@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="solicitudAJAX()">
+  <div class="container">
+      <h2>TP_Api</h2>
+      <label for="nPokemon">Buscador</label>
+      <input
+        type="number"
+        id="nPokemon"
+        placeholder="Ingresar un numreo de Pokemon"
+        data=""
+      />
+      <button onclick="buscarOtros()">
+        Buscar
+      </button>
+      <div id="ConteinerCard"></div>
+    </div>
+    <div id="wallet_container"></div>
+    
+    <script src="js.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0%;
+    text-align: center;
+    color: aquamarine;
+    background-image: url("Pokedex2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    
+    background-color: rgb(27, 24, 24);
+  }
+  
+
+  #ConteinerCard{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+
+.cordImage{
+  width: 250px;
+  margin-bottom: 20%;
+}
+
+.datosPokemon{
+  color: black;
+}
+
+  @media screen and (max-width: 700px) {
+   
+    .cordImage {
+      margin-top: 5%;
+      width: 200px;
+  
+    }
+    #ConteinerCard {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+  }
+  
+
+
+ 
+
